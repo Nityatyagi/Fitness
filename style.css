@@ -1,0 +1,254 @@
+*{ 
+  margin: 0px;
+  padding: 0px;
+  font-family:century;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/bg.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 30px;
+  min-height: 400px;
+  margin-right: 50px;
+  font-size: 25px;
+  
+}
+ul li{
+display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5 ease;
+
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 80px;
+}
+.button{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.5 ease;
+  font-size: 18px;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+
+}
+*{ 
+  margin: 0px;
+  padding: 0px;
+  font-family:century;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/second.jpeg);
+}
+.navbar{
+  display: flex;
+  height: 88%;
+  align-items: center;
+
+}
+.col{
+  flex-basis: 50%;
+
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+}
+p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
+button{
+  width: 180px;
+  color: #000;
+  font-size: 20px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+.card{
+width: 200px;
+height: 250px;
+display: inline-block;
+border-radius: 10px;
+padding: 15px 25px;
+box-sizing: border-box;
+cursor: pointer;
+margin: 10px 15px;
+background-position: center;
+background-size: cover;
+transition: transform 0.5s;
+}
+.card1{
+  background-image: url(images/cardio.jpeg);
+
+}
+.card2{
+  background-image: url(images/zumba.jpeg);
+  
+}
+.card3{
+  background-image: url(images/yoga.jpeg);
+  
+}
+.card4{
+  background-image: url(images/andmore.jpeg);
+  
+}
+.card:hover{
+  transform: translateY(-10px);
+
+}
+*{ 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: century;
+  background: linear-gradient(#000,#000);
+
+}
+.contact-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-left{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 45%;
+}
+.contact-left-title h2{
+  font-weight: 600;
+  color: #fff;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+.contact-left-title hr{
+  border: none;
+  height: 5px;
+  width: 120px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact-inputs{
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+.contact-left textarea{
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+.contact-inputs:focus{
+  border: 2px solid #81140c;
+}
+.contact-inputs::placeholder{
+  color: #000;
+}
+.contact-container .contact_btn{
+  display: flex;
+  align-items: center;
+  padding: 10px 25px;
+  font-size: 20px;
+  color:#010000;
+  gap: 10px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(270deg,#f8f6f6, #fcfbfb);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact-right{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-right video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.links{
+  margin: 1rem 0 1rem;
+  text-align: center;
+}
+.links a{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff ;
+  padding: 1rem;
+
+}
+.links a:hover{
+  color: #fff;
+
+}
+.contact p{
+text-align: center;
+}
